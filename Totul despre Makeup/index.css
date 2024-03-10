@@ -1,0 +1,327 @@
+body{
+    margin: 0cm;
+    background-color:darkgray;
+    width: 100%;
+    height: 250%;
+}
+@-o-viewport{
+  zoom: 1.0;
+  width: extend-to-zoom;
+}
+@-ms-viewport{
+  width: extend-to-zoom;
+  zoom:1.0;
+}
+.header{
+    background-color:thistle;
+    padding: 25px;
+    text-align: center;
+    background-image: linear-gradient(to right, red,purple,pink );
+}
+ul{
+  float:left;
+  color:salmon;
+}
+ul li{
+margin-top: -35%;
+position: relative;
+font-size: 25px;
+color: sandybrown;
+height: 15px;
+left: 1800%;
+}
+
+.box1{
+    border: 1px solid transparent;
+    background-color: wheat;
+    height: 50px;
+    margin-top: 10px;
+    text-align: center;
+    padding: 75px;
+    background-repeat: no repeat, repeat;
+    background-color:transparent;
+    transition: width 2s;
+    animation: mymove 7s;
+    background-image: url(surse/backg.jpg);
+}
+
+a{
+    color:linen;
+    text-decoration: none;
+    text-align: center;
+}
+h1{
+    font-family: "Nanum Pen Script", sans-serif;
+    font-size: 75px;
+    margin-top: -2%;
+    color:darkviolet;
+    animation:moveInLeft 2s ease-in-out;
+    font-family: 'Indie Flower';
+    font-weight: 400;
+    color: rgb(85, 24, 60);
+    text-shadow: 2px 2px 5px rgb(236, 208, 47);
+}
+@keyframes moveInLeft {
+0%
+{
+    opacity: 0;
+    transform:translateX(-100px);
+}
+80%
+{
+    transform: translateX(10px);
+}
+100%{
+    opacity: 1;
+    transform: translateX(0);
+}  
+}
+@keyframes mymove{
+    50%{
+        border: 15px solid lightpink;
+    }
+}
+.box2{
+    background-color:darkgray;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.flex-container > a {
+  background-image: url(https://wallpaper.dog/large/17219570.png);
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  margin: 10px;
+  font-family: 'Fontdiner Swanky', cursive;
+  width: 120%;
+  color: black;
+
+}
+.section-1{
+   box-sizing: border-box;
+    background-image:url(https://cdn.statically.io/img/c4.wallpaperflare.com/wallpaper/6/516/903/vaporwave-pink-wallpaper-preview.jpg);
+    margin-bottom: 100px;
+    margin-top: 70px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+h2{
+    font-size: 100px;
+    text-decoration: thistle;
+    font-style:inherit;
+    font-family: 'Amatic SC', cursive;
+    color:rgb(117, 54, 64);
+    text-decoration: underline;
+}
+h3{
+    font-size: 30px;
+    padding-left: 100px;
+    color:rgb(233, 30, 94);
+    text-shadow: violet;
+    padding-top: -10%;
+    font-family: 'Fontdiner Swanky', cursive;
+    
+}
+p{
+    font-size: 30px;
+    font-family: 'Architects Daughter', cursive;
+    color:rgb(190, 36, 95);
+    padding-left: 10px;
+}
+.inc2{
+  display: flex;
+}
+.inc{
+  display: flex;
+}
+div.gallery{
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 190px;
+  margin-left: 50px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+    transform: scale(1.2);
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    background-color: thistle;
+    font-family: 'The Girl Next Door', cursive;
+  }
+  h4{
+      font-size: 30px;
+      font-family: 'Architects Daughter', cursive;
+      color: rgb(202, 125, 202);
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+  .section-2{
+    box-sizing: border-box;
+    background-image:url(https://cdn.statically.io/img/c4.wallpaperflare.com/wallpaper/6/516/903/vaporwave-pink-wallpaper-preview.jpg);
+    height:110vh;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+ 
+  .flex-container1{
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .flex-container1  > div {
+    line-height: 50px;
+    padding: 100px;
+    padding-top: 10px;
+  }
+ .flex-container2{
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .flex-container2  > div {
+    line-height: 50px;
+    font-size: 30px;
+    padding: 100px;
+    padding-top: 10px;
+  }
+  .section-3{
+    box-sizing: border-box;
+    background-image:url(https://cdn.statically.io/img/c4.wallpaperflare.com/wallpaper/6/516/903/vaporwave-pink-wallpaper-preview.jpg);
+    height:115vh;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  #video{
+    margin-bottom: auto;
+  }
+  .flex-container3{
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .flex-container3  > div {
+    line-height: 50px;
+    font-size: 30px;
+    padding: 150px;
+    padding-top: 10px;
+  }
+  .section-4{
+    box-sizing: border-box;
+    background-image:url(https://cdn.statically.io/img/c4.wallpaperflare.com/wallpaper/6/516/903/vaporwave-pink-wallpaper-preview.jpg);
+    margin-left: 15px;
+    margin-right: 15px;
+    height: fit-content;
+  }
+  div.gallery1 {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 300px;
+    margin-left: 50px;
+  }
+  
+  div.gallery1:hover {
+    border: 1px solid #777;
+    transform: scale(1.2);
+  }
+  
+  div.gallery1 img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    background-color: thistle;
+    font-family: 'Engagement', cursive;
+  }
+  .section-5{
+    box-sizing: border-box;
+    background-image:url(https://cdn.statically.io/img/c4.wallpaperflare.com/wallpaper/6/516/903/vaporwave-pink-wallpaper-preview.jpg);
+    height:auto;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: -2%;
+  }
+  .flex-container4{
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .flex-container4  > div {
+    line-height: 50px;
+    font-size: 30px;
+    padding: 150px;
+    padding-top: 10px;
+  }
+  .section-6{
+    box-sizing: border-box;
+    background-image:url(https://cdn.statically.io/img/c4.wallpaperflare.com/wallpaper/6/516/903/vaporwave-pink-wallpaper-preview.jpg);
+    height:110vh;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: -2%;
+  }
+  .flex-container5{
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .flex-container5  > div {
+    line-height: 50px;
+    font-size: 30px;
+    padding: 150px;
+    padding-top: 10px;
+  }
+  .section-7{
+    box-sizing: border-box;
+    background-image:url(https://cdn.statically.io/img/c4.wallpaperflare.com/wallpaper/6/516/903/vaporwave-pink-wallpaper-preview.jpg);
+    height:120vh;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 70px;
+  }
+  div.gallery2 {
+    margin: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 300px;
+    margin-left: 50px;
+  }
+  
+  div.gallery2:hover {
+    border: 1px solid #777;
+    transform:scale(1.2);
+  }
+  
+  div.gallery2 img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    background-color: thistle;
+    font-family: 'Engagement', cursive;
+  }
+.footer {
+    text-align: center;
+    padding: 3px;
+    background-image: linear-gradient(to right, #856072, pink,#856072 );
+    color:blanchedalmond;
+    padding-top: -10%;
+  }
+  h6{
+    font-size: larger;
+    color:rgb(36, 22, 22);
+  }
